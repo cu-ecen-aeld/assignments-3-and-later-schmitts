@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 # Colorado at Boulder ECEN 5713 Advanced Embedded Software Development
 # Assignment 1

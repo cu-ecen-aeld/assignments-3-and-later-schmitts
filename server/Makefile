@@ -1,5 +1,5 @@
 aesdsocket: aesdsocket.c
-	${CROSS_COMPILE}gcc -g aesdsocket.c -o aesdsocket
+	$(CC) $(CC_FLAGS) $(LD_FLAGS) aesdsocket.c -o aesdsocket
 
 .PHONY: all
 all: aesdsocket
